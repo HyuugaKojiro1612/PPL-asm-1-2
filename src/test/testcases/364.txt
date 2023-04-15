@@ -1,0 +1,6 @@
+
+        a,v: array[1,2,3,4,5] of integer = {1,2,3,4,5}, {1,2,3,4,5};
+        main: function integer(a: integer, out c: string) inherit newcase {a: integer;
+            return a(v(0));
+        }
+        

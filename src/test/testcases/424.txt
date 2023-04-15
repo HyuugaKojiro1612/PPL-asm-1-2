@@ -1,0 +1,9 @@
+
+            main: function void() {
+                x: integer = -1;
+                printInt(x);
+                do {x = x + 1; break;}
+                while (x > 0);
+                printInt(x);
+            }
+        

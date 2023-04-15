@@ -1,0 +1,34 @@
+
+            add: function float(i: float) /*salad
+            kabab 
+            */{
+                return i;
+            }
+            inc: function void(out n: integer, inherit delta: integer, inherit out hallo: auto) inherit add{
+                a[1,2] = b[1,2];
+                a[1, a[1,2]] = b[6,9];
+                n = n + delta + hallo;
+                n = n - delta - hallo;
+                n = n * delta * hallo;
+                /* multiple
+                    line
+                    comment
+                */
+                n = n / delta / hallo;
+                n = true;
+                n = n % 1 + hallo - 1+2;
+                n = n && delta && hallo;
+                n = n || delta || hallo;
+                n = n :: n;
+                n = n + add(delta);
+                n = a[1, a[1, a[1,2]]]; // n[1,2] = 2 => n = a[1,2];
+                n = (!n > FAsLE(!true)) != (bool == (lean >= bool));
+                n = !n && n || n == n || !n;
+                return n*a[1,1]+12/foo(12,4);
+                return n;
+                break;
+                continue;
+                return;
+                return add(1, add(1,2));
+            }        
+        

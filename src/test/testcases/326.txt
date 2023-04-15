@@ -1,0 +1,11 @@
+main: function integer(a: integer, out c: string) inherit newcase {
+            x = 1;
+            y = 2;
+            z = 3;
+            if(x != y) {
+                temp = x;
+                x = y;
+                y = temp;
+            }
+            return {1,2,3,4} +  (false && false) || true;
+        }

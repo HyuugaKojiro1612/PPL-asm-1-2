@@ -1,0 +1,4 @@
+is_check: boolean = true;
+        is_not_check, is_prime: boolean = false, (false || true);
+        a, b: auto;
+        

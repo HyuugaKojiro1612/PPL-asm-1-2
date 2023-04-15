@@ -1,0 +1,7 @@
+Program([
+	VarDecl(c, FloatType, FloatLit(1e+23))
+	VarDecl(d, FloatType, FloatLit(0.4))
+	VarDecl(e, FloatType, FloatLit(0.0))
+	VarDecl(f, FloatType, FloatLit(10.0))
+	FuncDecl(m, IntegerType, [], None, BlockStmt([VarDecl(a, ArrayType([10], IntegerType)), AssignStmt(Id(a), ArrayLit([IntegerLit(1), IntegerLit(2), IntegerLit(3), ArrayLit([IntegerLit(3), IntegerLit(4), IntegerLit(5)])]))]))
+])

@@ -1,0 +1,7 @@
+
+            main: function void() {
+                num: integer = 100;
+                do {num = num + 1; continue;}
+                while (num > 0);
+            }
+        

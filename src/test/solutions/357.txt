@@ -1,0 +1,3 @@
+Program([
+	FuncDecl(m_t_o, ArrayType([5], IntegerType), [], None, BlockStmt([ReturnStmt(FuncCall(foo, [BinExpr(::, BinExpr(||, BinExpr(+, IntegerLit(12), IntegerLit(2)), IntegerLit(4)), IntegerLit(5))]))]))
+])

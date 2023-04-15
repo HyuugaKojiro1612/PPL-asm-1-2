@@ -1,0 +1,8 @@
+
+            x : integer = 2 ;
+            main : function void() {
+                x = x + 2;
+                if (x == 4) x = x + 1;
+                return;
+            }
+        

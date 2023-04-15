@@ -1,0 +1,11 @@
+main: function void() {
+            do {
+                n : integer;
+                print("Enter n: ");
+                n = readInt();
+                printFloat(caclPi(n));
+                print("Pi = ");
+                print("\n");
+            } while (n != 0);
+        }        
+        

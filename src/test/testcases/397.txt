@@ -1,0 +1,11 @@
+
+        x,y: float;
+        check: function auto(x: boolean){
+            return !x;
+        }
+        main: function void () {
+            x: boolean;
+            x = true;
+            printBoolean(check(check(check(x))));
+        }
+        

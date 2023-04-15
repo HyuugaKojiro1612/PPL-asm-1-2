@@ -1,0 +1,14 @@
+
+                main: function void(inherit out a : integer, b : float) inherit a{
+                    while (true){
+                        
+                    }
+                    while (true){
+                        a = 1;
+                        a : integer = 1;
+                        if ((a == 2) || (a == 3)){
+                            return 0;
+                        }
+                    }
+                }
+            

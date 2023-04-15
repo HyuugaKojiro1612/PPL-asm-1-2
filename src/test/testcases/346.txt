@@ -1,0 +1,10 @@
+main_test_63: function integer(inherit a: integer, out c: string) {
+            i,j : integer = 0, 1;
+            isCheck, isDivide: boolean = true, false;
+            do {
+                print("Hello world");
+                isCheck = false;
+            }
+            while(true || isCheck);
+        }
+        

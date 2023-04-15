@@ -1,0 +1,5 @@
+def: function string(getbyID: array[2] of string) inherit getCurrentValue {
+            y = x * 2 + t - 1/2;
+            z = y && x + 2 * 5;
+            return y || z;
+        }

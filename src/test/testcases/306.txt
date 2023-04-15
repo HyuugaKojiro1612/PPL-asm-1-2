@@ -1,0 +1,9 @@
+
+        a: integer;
+        main: function void() {
+            return 1;
+        }
+        b_als__a_2_o, __init__, __define__, _A0_2_1: float;
+        c: string = "m";
+        d, e: string;
+        

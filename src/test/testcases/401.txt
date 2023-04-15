@@ -1,0 +1,4 @@
+songuyen: integer; 
+        sothuc: float; 
+        dung: boolean; 
+        chuoi: string; 

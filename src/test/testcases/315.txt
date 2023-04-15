@@ -1,0 +1,7 @@
+
+        int: array[1,2] of integer;
+        fl: array[1_2, 22_1] of float;
+        bool: array[1,2_0] of boolean;
+        str: array[86_9,9] of string;
+        main: function void(argv: integer, out kwarg: string){}
+        

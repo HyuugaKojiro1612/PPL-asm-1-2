@@ -1,0 +1,4 @@
+
+        newcastle, func: auto = {1,2,"abc", m, {9,20}}, custom;
+        foo: string = "abc" :: mn + 1 - (-2) * 6 / 4 + 12%3;
+        

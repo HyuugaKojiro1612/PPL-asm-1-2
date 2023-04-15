@@ -1,0 +1,7 @@
+
+        m_t_o: function string() {
+            a = !-12;
+            b = !3;
+            c = --2;
+            return a(b(c));
+        }

@@ -1,0 +1,8 @@
+Program([
+	VarDecl(current, BooleanType, BinExpr(||, BinExpr(&&, BinExpr(&&, BooleanLit(False), BooleanLit(True)), BooleanLit(True)), BooleanLit(False)))
+	VarDecl(a, FloatType, FloatLit(0.0))
+	VarDecl(b, FloatType, FloatLit(100000000000000.0))
+	VarDecl(c, FloatType, FloatLit(8000000000000000.0))
+	VarDecl(d, FloatType, FloatLit(6e+16))
+	FuncDecl(main, VoidType, [], None, BlockStmt([]))
+])

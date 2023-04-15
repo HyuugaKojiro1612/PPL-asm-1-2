@@ -1,0 +1,3 @@
+Program([
+	FuncDecl(main, IntegerType, [Param(argv, IntegerType), Param(kwargs, StringType)], None, BlockStmt([WhileStmt(BinExpr(==, Id(main), BooleanLit(True)), BlockStmt([])), CallStmt(print, FuncCall(is_divide, [IntegerLit(1221)])), ReturnStmt(IntegerLit(0))]))
+])

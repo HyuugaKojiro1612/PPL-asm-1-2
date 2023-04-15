@@ -1,0 +1,3 @@
+Program([
+	FuncDecl(main, VoidType, [InheritOutParam(a, IntegerType), Param(b, FloatType)], a, BlockStmt([WhileStmt(BooleanLit(True), BlockStmt([])), WhileStmt(BooleanLit(True), ReturnStmt(IntegerLit(0)))]))
+])

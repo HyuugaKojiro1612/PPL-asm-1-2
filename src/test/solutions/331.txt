@@ -1,0 +1,3 @@
+Program([
+	FuncDecl(many_to_one, StringType, [], None, BlockStmt([IfStmt(Id(as), BlockStmt([ReturnStmt(BooleanLit(True))]))]))
+])

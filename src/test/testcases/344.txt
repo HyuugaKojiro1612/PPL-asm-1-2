@@ -1,0 +1,10 @@
+main: function integer(a: integer, out c: string) inherit newcase {
+            i: integer = 0;
+            do {
+                i = i + 1;
+                print("Hello world");
+            }
+            while(i < 1);
+        }
+        mat : array[3,1_2_3_3] of integer = {{1,2,3},{4,5,6},{7,8,9}};
+        

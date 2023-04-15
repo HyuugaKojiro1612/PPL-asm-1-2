@@ -1,0 +1,6 @@
+
+            a,b,c : float;
+            main : function void() {    
+                x = y && z && t || c || r;
+            }
+            

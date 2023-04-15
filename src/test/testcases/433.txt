@@ -1,0 +1,10 @@
+
+            f: boolean = a < !b;
+            main : function void() {    
+                while (f == true || false) {
+                    if (x == 1) {
+                        test(sth);
+                    }
+                }
+            }
+        

@@ -1,0 +1,9 @@
+
+        num: function integer(x: integer){
+            return x + 10 % 9;
+        }
+        main: function void () {
+            num(printInt(num(x)));
+            return x;
+        }
+        

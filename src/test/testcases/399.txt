@@ -1,0 +1,9 @@
+
+        check: function integer(x: integer){
+            return x + 10/10;
+        }
+        main: function void () {
+            printInt(check(check(x)));
+            return;
+        }
+        

@@ -1,0 +1,11 @@
+
+            main: function void () {
+                i: integer = -34;
+                do{
+                    if (i >= 0)
+                        return i - 1;
+                }
+                while (i != 0);
+                return  i;
+            }
+        

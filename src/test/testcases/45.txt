@@ -1,0 +1,12 @@
+
+                a : integer = 1;
+                main : function void(a: array [5] of integer){
+                    if (a){
+                        
+                    }
+                    else if ((a == b) || ((a != c) && !a)){
+                        
+                    }
+                    
+                }
+            

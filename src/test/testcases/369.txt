@@ -1,0 +1,6 @@
+main: function auto(bool: integer, out c: string) inherit newcase {
+            a = !bool  && c;
+            return !bool;
+            return a&&b+c;
+            return comma + {1,2,3,{4,5}};
+        }

@@ -1,0 +1,3 @@
+Program([
+	FuncDecl(main, VoidType, [], None, BlockStmt([VarDecl(codium, IntegerType, FloatLit(0.00012)), VarDecl(bracket, IntegerType, BinExpr(::, StringLit(sweep), StringLit(meet))), AssignStmt(Id(annotation), Id(bracket)), AssignStmt(Id(best), FuncCall(foo, [BinExpr(&&, Id(a), Id(b))]))]))
+])

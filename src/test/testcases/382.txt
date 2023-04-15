@@ -1,0 +1,11 @@
+
+            voidAB: function integer(out n: integer){
+                return n+4+2;
+            }
+            main: function void () {
+                x: integer = 0;
+                delta: integer = voidA(5+voidA(2));
+                delta = delta/2 + delta/3;
+                printInt(delta);
+            }
+        

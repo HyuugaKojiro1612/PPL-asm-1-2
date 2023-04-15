@@ -1,0 +1,10 @@
+
+        x,y: boolean = false, true;
+        check: function boolean(x: boolean){
+            return !x;
+        }
+        main: function void () {
+            x = true;
+            printBoolean(check(check(x)));
+        }
+        

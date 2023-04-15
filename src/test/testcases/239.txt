@@ -1,0 +1,5 @@
+ main: function integer(x: integer, out str: string) inherit foo {
+                        a: integer;
+                        a = a + 2;
+                        for (i = 2, i < 10, i + 1) a = a - 2 :: str;
+                    }

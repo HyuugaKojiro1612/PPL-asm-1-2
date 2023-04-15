@@ -1,0 +1,14 @@
+
+                a : integer = 1;
+                checkSoNguyenTo: function boolean(a: integer){
+                    for (i = 2, i < sqrt(a), i + 1 ){
+                        if (a % i == 0) return false;
+                    }
+                    return true;
+                }
+                main: function void(inherit out a : integer, b : float) inherit a{
+                    a: integer = giaithua(5);
+                    if(checkSoNguyenTo(a)) print("Day la so nguyen to!!!");
+                    else print("Day khong phai la so nguyen to!!!");
+                }
+            

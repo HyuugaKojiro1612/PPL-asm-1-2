@@ -1,0 +1,1 @@
+ a, b : integer = "" :: 2, true && false; 

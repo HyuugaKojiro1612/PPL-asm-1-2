@@ -1,0 +1,4 @@
+Program([
+	FuncDecl(main, IntegerType, [Param(a, IntegerType), OutParam(c, StringType)], newcase, BlockStmt([VarDecl(i, IntegerType, IntegerLit(0)), DoWhileStmt(BinExpr(<, Id(i), IntegerLit(1)), BlockStmt([AssignStmt(Id(i), BinExpr(+, Id(i), IntegerLit(1))), CallStmt(print, StringLit(Hello world))]))]))
+	VarDecl(mat, ArrayType([3, 1233], IntegerType), ArrayLit([ArrayLit([IntegerLit(1), IntegerLit(2), IntegerLit(3)]), ArrayLit([IntegerLit(4), IntegerLit(5), IntegerLit(6)]), ArrayLit([IntegerLit(7), IntegerLit(8), IntegerLit(9)])]))
+])

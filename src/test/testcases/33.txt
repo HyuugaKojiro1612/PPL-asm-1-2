@@ -1,0 +1,31 @@
+
+                main: function void(inherit out a : integer, b : float) inherit a{
+                    a : integer = 0;
+                    do{
+                        if(a == 5) break;
+                        f(a);
+                         for(i = 2, i >5, i + 1){
+                            a = 1;
+                            a : integer = 1;
+                            if ((a == 2) || (a == 3)){
+                                return 0;
+                            }
+                            {
+                                
+                            }
+                        }
+                        for(i = 2, i >5, i + 1){
+                            a = 1;
+                            a : integer = 1;
+                            if ((a == 2) || (a == 3)){
+                                return 0;
+                            }
+                            {
+                                
+                            }
+                        }
+                        a = a + 1;
+                    }while(a != 10);
+                    return 0;
+                }
+            

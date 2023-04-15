@@ -1,0 +1,50 @@
+
+                a,b,c : integer = 1,2,3;
+                a,b,c : auto = 1,2,3;
+                a,b,c : array [10] of integer = {1,2,3,4,5,56}, {5,4,3,56}, {224234,234234,234234,23424};
+                main : function void(a: array [5] of integer){
+                    if (a){
+                        
+                    }
+                    else if ((a == b) || ((a != c) && !a)){
+                        
+                    }
+                    
+                }
+                main : function void(a: array [5] of integer){
+                    if (a){
+                        
+                    }
+                    else if ((a == b) || ((a != c) && !a)){
+                        
+                    }
+                    
+                }
+                main : function void(a: array [5] of integer){
+                    if (a){
+                        
+                    }
+                    else if ((a == b) || ((a != c) && !a)){
+                        
+                    }
+                    
+                }
+                main : function void(a: array [5] of integer){
+                    if (a){
+                        
+                    }
+                    else if ((a == b) || ((a != c) && !a)){
+                        
+                    }
+                    
+                }
+                main : function void(a: array [5] of integer){
+                    if (a){
+                        
+                    }
+                    else if ((a == b) || ((a != c) && !a)){
+                        
+                    }
+                    
+                }
+            

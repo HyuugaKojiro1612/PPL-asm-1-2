@@ -1,0 +1,6 @@
+
+        x,y: integer = 2 , 100000;
+        main: function void () {
+            while (x + y == 100002) y = 8;
+            printInt(y);
+        }

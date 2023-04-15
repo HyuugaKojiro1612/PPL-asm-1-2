@@ -1,0 +1,8 @@
+
+        main: function auto(){
+            match: array[2] of boolean;
+            match[0] = tonumber != tostring;
+            match[1] = !false && true;
+            a = !(a != !b);
+        }
+        Function: function void() {}

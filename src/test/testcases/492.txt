@@ -1,0 +1,7 @@
+
+            main: function void() {
+                do {do {
+                        if (true || -false) a = !false;
+                    } while (false);} while (true);
+            }
+        

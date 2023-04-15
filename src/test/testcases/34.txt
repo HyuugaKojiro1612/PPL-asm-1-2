@@ -1,0 +1,11 @@
+
+                main: function void(inherit out a : integer, b : float) inherit a{
+                    a : integer = 0;
+                    do{
+                        break;
+                        a,b : float = 1, d;
+                    }while(a != 10);
+                    
+                    return 0;
+                }
+            

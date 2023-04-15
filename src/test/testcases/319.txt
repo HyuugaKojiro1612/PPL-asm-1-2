@@ -1,0 +1,12 @@
+
+        main: function void() {
+            a: array[12_23] of float;
+            ex = expr + (true || false) - a[3,4];
+            a[3,4] = 2.e3;
+            a[4,5] = {1.e-2, .e-4, .e-5, 0.3e4};
+            m: array[2] of string;
+            m[0] = "abc\n";
+            m[1] = "\"";
+            return returntype;
+        }
+        

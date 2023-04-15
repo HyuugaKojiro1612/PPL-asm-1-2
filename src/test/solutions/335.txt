@@ -1,0 +1,5 @@
+Program([
+	VarDecl(is_checked, BooleanType, BooleanLit(True))
+	FuncDecl(check_func, VoidType, [], None, BlockStmt([IfStmt(Id(is_checked), BlockStmt([AssignStmt(Id(a), IntegerLit(5)), AssignStmt(Id(c), IntegerLit(6)), ReturnStmt(IntegerLit(7))]))]))
+	FuncDecl(main, IntegerType, [Param(argv, IntegerType), Param(kwargs, StringType)], None, BlockStmt([ReturnStmt(IntegerLit(0))]))
+])

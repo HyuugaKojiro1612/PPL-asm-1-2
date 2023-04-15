@@ -1,0 +1,6 @@
+
+            main : function void(args: string) {}
+            foo: function boolean(a:string, b: string){
+                return a == b;
+            }
+            

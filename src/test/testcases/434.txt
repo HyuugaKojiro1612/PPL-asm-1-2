@@ -1,0 +1,9 @@
+
+            f: boolean = a < !b;
+            main : function void() {    
+                if (f == true || false)
+                    if (x == 1) {
+                        test(sth);
+                    }
+            }
+        

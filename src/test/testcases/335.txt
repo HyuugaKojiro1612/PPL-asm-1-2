@@ -1,0 +1,10 @@
+
+        is_checked: boolean = true;
+        check_func: function void() {
+            if (is_checked) {
+                a = 5;
+                c = 6;
+                return 7;
+            }
+        }
+        main: function integer(argv: integer, kwargs: string) {return 0;}

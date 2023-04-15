@@ -1,0 +1,8 @@
+
+                main: function void(inherit out a : integer, b : float) inherit a{
+                    arr : array [5,1,2,4] of integer = {1,2,3};
+                    arr : array [554] of integer = {{1,2,3}, {1,2,3}};
+                    arr : array [2,3,5] of string = {};
+                    arr : array [5,5] of boolean = {"123"};
+                }
+            

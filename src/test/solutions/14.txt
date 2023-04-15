@@ -1,0 +1,3 @@
+Program([
+	FuncDecl(main, VoidType, [InheritOutParam(a, IntegerType), Param(b, FloatType)], a, BlockStmt([AssignStmt(Id(a), IntegerLit(1)), AssignStmt(Id(a), StringLit(123)), AssignStmt(Id(a), FloatLit(1.23)), AssignStmt(Id(a), ArrayLit([IntegerLit(1), IntegerLit(2), IntegerLit(3), IntegerLit(4)])), AssignStmt(Id(a), BooleanLit(True))]))
+])

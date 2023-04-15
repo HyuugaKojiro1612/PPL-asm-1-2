@@ -1,0 +1,5 @@
+
+        is_check: boolean = (true || false) && (false && is_check);
+        main: function void() {
+            a = (true || false);
+        }

@@ -1,0 +1,4 @@
+Program([
+	FuncDecl(sumCalc, VoidType, [Param(n, IntegerType)], None, BlockStmt([VarDecl(sum, IntegerType, IntegerLit(0)), ForStmt(AssignStmt(Id(i), IntegerLit(0)), BinExpr(<=, Id(i), Id(n)), BinExpr(+, Id(i), IntegerLit(1)), BlockStmt([AssignStmt(Id(sum), BinExpr(+, Id(sum), Id(i)))])), CallStmt(printInteger, Id(sum))]))
+	FuncDecl(main, VoidType, [], None, BlockStmt([VarDecl(test1, IntegerType, IntegerLit(123)), ReturnStmt(BinExpr(*, FuncCall(sumCalc, [Id(test1)]), IntegerLit(3)))]))
+])

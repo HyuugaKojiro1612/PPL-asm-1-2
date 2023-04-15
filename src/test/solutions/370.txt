@@ -1,0 +1,8 @@
+Program([
+	VarDecl(sigma, BooleanType, BinExpr(||, BinExpr(&&, Id(abc), BooleanLit(True)), BooleanLit(False)))
+	VarDecl(a, FloatType, FloatLit(2300.0))
+	VarDecl(b, StringType, StringLit(asdc_asjd_1))
+	VarDecl(c, IntegerType, IntegerLit(1232222))
+	VarDecl(d, IntegerType, Id(f))
+	FuncDecl(main, IntegerType, [Param(a, IntegerType), OutParam(c, StringType)], newcase, BlockStmt([VarDecl(a, IntegerType), AssignStmt(Id(mul), BinExpr(&&, BinExpr(&&, Id(a), Id(b)), Id(c))), ReturnStmt()]))
+])

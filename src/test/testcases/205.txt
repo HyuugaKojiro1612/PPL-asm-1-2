@@ -1,0 +1,4 @@
+ a, b, c: integer;
+                    d: string;
+                    flag: boolean;
+                    arr: array[5,2] of float;

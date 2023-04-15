@@ -1,0 +1,17 @@
+
+        is_checked: boolean = true;
+        main: function integer(a: integer, inherit is_save: boolean, out c: string, inherit out d: array[5] of integer) inherit newcase {
+            a: integer;
+            if (true) {
+                if (c == "") return 1;
+                else if (c == "\t") {
+                    return 2;
+                }
+                else if (c == "\n") {
+                    return 3;
+                }
+                else readInteger();
+            }
+            else printInteger(0);
+            return 4;
+        }

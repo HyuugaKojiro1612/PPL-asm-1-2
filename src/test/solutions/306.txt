@@ -1,0 +1,11 @@
+Program([
+	VarDecl(a, IntegerType)
+	FuncDecl(main, VoidType, [], None, BlockStmt([ReturnStmt(IntegerLit(1))]))
+	VarDecl(b_als__a_2_o, FloatType)
+	VarDecl(__init__, FloatType)
+	VarDecl(__define__, FloatType)
+	VarDecl(_A0_2_1, FloatType)
+	VarDecl(c, StringType, StringLit(m))
+	VarDecl(d, StringType)
+	VarDecl(e, StringType)
+])

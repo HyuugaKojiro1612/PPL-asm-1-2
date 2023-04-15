@@ -1,0 +1,8 @@
+
+                main: function void(inherit out a : integer, b : float) inherit a{
+                    while (true){
+                        
+                    }
+                    while (true) return 0;
+                }
+            

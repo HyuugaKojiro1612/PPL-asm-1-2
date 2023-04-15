@@ -1,0 +1,14 @@
+
+        main: function void() {
+            a: array[6_2] of integer;
+            a = expr + (true || false) - a[3,4];
+            a = 2 + 5;
+            b = a;
+            /*for (i = 0, i < 4, i + 1){
+                return 6;
+            }*/
+            for (i = 0, i < 4, i + 1){
+                return 6;
+            }
+        }
+        

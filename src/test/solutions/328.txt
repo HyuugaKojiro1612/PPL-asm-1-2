@@ -1,0 +1,3 @@
+Program([
+	FuncDecl(def, StringType, [Param(getbyID, ArrayType([2], StringType))], getCurrentValue, BlockStmt([AssignStmt(Id(y), BinExpr(-, BinExpr(+, BinExpr(*, Id(x), IntegerLit(2)), Id(t)), BinExpr(/, IntegerLit(1), IntegerLit(2)))), AssignStmt(Id(z), BinExpr(&&, Id(y), BinExpr(+, Id(x), BinExpr(*, IntegerLit(2), IntegerLit(5))))), ReturnStmt(BinExpr(||, Id(y), Id(z)))]))
+])

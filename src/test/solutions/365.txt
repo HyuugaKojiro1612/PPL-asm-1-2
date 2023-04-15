@@ -1,0 +1,3 @@
+Program([
+	FuncDecl(main, IntegerType, [Param(a, IntegerType), OutParam(c, StringType)], newcase, BlockStmt([VarDecl(a, IntegerType), CallStmt(printInteger, FuncCall(a, [ArrayCell(m, [IntegerLit(1)])]))]))
+])

@@ -1,0 +1,6 @@
+
+            x : integer = 4 ;
+            main : function void() {
+                if(x==3+4) x = 4 + x;
+            }
+        

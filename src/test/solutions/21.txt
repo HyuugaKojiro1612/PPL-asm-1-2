@@ -1,0 +1,3 @@
+Program([
+	FuncDecl(main, VoidType, [InheritOutParam(a, IntegerType), Param(b, FloatType)], a, BlockStmt([VarDecl(a, IntegerType, Id(a)), VarDecl(a, IntegerType, ArrayCell(c, [Id(f)])), VarDecl(a, IntegerType, ArrayCell(d, [ArrayCell(f, [ArrayCell(c, [Id(f)])])])), VarDecl(a, IntegerType, FuncCall(func, [FuncCall(func, [Id(func)])])), VarDecl(arr, ArrayType([5], IntegerType), ArrayLit([ArrayLit([Id(a), ArrayCell(b, [IntegerLit(5)]), BinExpr(+, IntegerLit(3), IntegerLit(1))]), ArrayLit([IntegerLit(1), IntegerLit(2), IntegerLit(3)])])), VarDecl(arr, ArrayType([5], IntegerType), ArrayLit([Id(a), FuncCall(f, []), FuncCall(f, [BinExpr(+, Id(a), Id(c))])]))]))
+])

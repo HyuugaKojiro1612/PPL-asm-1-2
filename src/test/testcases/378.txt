@@ -1,0 +1,25 @@
+
+            inc: function void(out n: integer, inherit delta: integer, inherit out hallo: auto) inherit add{
+                if (!true) return true;
+                else return false;
+                for( i = 0, i < 10, i + 1)
+                    if (i > 0) continue;
+                    else break;
+                while (true)
+                    return a[1, a[1,2]] == b[6,9];
+                do{
+                    n = n + add(delta);
+                    readInteger();
+                    printInteger(1_23 - 12);
+                    readFloat();
+                    writeFloat(1.e+10 * 1.2);
+                    readBoolean();
+                    printBoolean(!n);
+                    readString();
+                    printString("hello" :: "world!");
+                    super(a, b, c);
+                    preventDefault();
+                } while (a != b);
+                return n; 
+            }       
+        

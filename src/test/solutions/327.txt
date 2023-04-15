@@ -1,0 +1,3 @@
+Program([
+	FuncDecl(fact, IntegerType, [Param(a, IntegerType), OutParam(c, FloatType)], None, BlockStmt([AssignStmt(Id(is_check), BinExpr(==, Id(n), BinExpr(||, IntegerLit(0), BooleanLit(False)))), IfStmt(BinExpr(==, Id(n), IntegerLit(0)), ReturnStmt(IntegerLit(1)), ReturnStmt(BinExpr(*, Id(n), FuncCall(fact, [BinExpr(-, Id(n), IntegerLit(1)), Id(c)]))))]))
+])

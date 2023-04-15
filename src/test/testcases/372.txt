@@ -1,0 +1,4 @@
+main: function integer(a: integer, out c: string) inherit newcase {
+            passFulltest();
+            return 10000;
+        }

@@ -1,0 +1,1 @@
+main: function void(){while(a == 0 && b != false || c > -5) {print();}}

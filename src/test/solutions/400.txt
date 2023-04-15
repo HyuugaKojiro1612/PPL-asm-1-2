@@ -1,0 +1,4 @@
+Program([
+	VarDecl(x, IntegerType, IntegerLit(9))
+	FuncDecl(main, VoidType, [], None, BlockStmt([CallStmt(printInt, Id(x)), BlockStmt([BlockStmt([BlockStmt([BlockStmt([CallStmt(printInt, Id(x)), VarDecl(x, IntegerType, IntegerLit(100)), CallStmt(printInt, Id(x))]), CallStmt(printInt, Id(x))])])]), ReturnStmt()]))
+])

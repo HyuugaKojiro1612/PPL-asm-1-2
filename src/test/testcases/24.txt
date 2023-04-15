@@ -1,0 +1,15 @@
+
+                main: function void(inherit out a : integer, b : float) inherit a{
+                    if(true) {
+                        if(a){
+                            
+                        }
+                        a = 1;
+                        a,b,c: integer;
+                        a,b,c: integer = 1,2,3; 
+                    }
+                    if(a == 2) return 3;
+                    else if(a == 1) return 2;
+                    else return 0;
+                }
+            

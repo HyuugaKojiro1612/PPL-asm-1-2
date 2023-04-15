@@ -1,0 +1,7 @@
+Program([
+	VarDecl(a, IntegerType, IntegerLit(12345))
+	VarDecl(b, IntegerType, IntegerLit(987))
+	VarDecl(c, IntegerType, IntegerLit(650))
+	FuncDecl(main, IntegerType, [Param(m, ArrayType([1], IntegerType))], None, BlockStmt([ReturnStmt()]))
+	FuncDecl(foo, VoidType, [], None, BlockStmt([CallStmt(parser, IntegerLit(2), IntegerLit(4)), CallStmt(__init__, BinExpr(%, Id(c), Id(d)), BinExpr(&&, BooleanLit(False), BooleanLit(True))), CallStmt(readInteger, )]))
+])

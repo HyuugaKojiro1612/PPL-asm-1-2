@@ -1,0 +1,7 @@
+
+        main: function integer(argv: integer, kwargs: string){
+            while (main == true) {}
+            print(is_divide(1_22_1));
+            return 0;
+        }        
+        

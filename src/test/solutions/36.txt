@@ -1,0 +1,3 @@
+Program([
+	FuncDecl(main, VoidType, [InheritOutParam(a, IntegerType), Param(b, FloatType)], a, BlockStmt([CallStmt(f, BinExpr(-, IntegerLit(5), IntegerLit(4)), BinExpr(>, Id(a), Id(b)), BinExpr(*, Id(a), Id(b)), ArrayLit([IntegerLit(1), IntegerLit(23), IntegerLit(4), IntegerLit(5), ArrayLit([])])), CallStmt(f, BinExpr(>=, Id(a), Id(b)), BinExpr(<=, Id(a), Id(b)), BinExpr(==, Id(a), Id(b)), BinExpr(!=, Id(a), Id(c)))]))
+])

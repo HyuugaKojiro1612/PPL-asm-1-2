@@ -1,0 +1,4 @@
+Program([
+	FuncDecl(main, AutoType, [], None, BlockStmt([VarDecl(match, ArrayType([2], BooleanType)), AssignStmt(ArrayCell(match, [IntegerLit(0)]), BinExpr(!=, Id(tonumber), Id(tostring))), AssignStmt(ArrayCell(match, [IntegerLit(1)]), BinExpr(&&, UnExpr(!, BooleanLit(False)), BooleanLit(True))), AssignStmt(Id(a), UnExpr(!, BinExpr(!=, Id(a), UnExpr(!, Id(b)))))]))
+	FuncDecl(Function, VoidType, [], None, BlockStmt([]))
+])

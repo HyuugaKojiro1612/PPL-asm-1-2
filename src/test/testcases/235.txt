@@ -1,0 +1,4 @@
+ main: function integer(x: integer, out str: string) inherit foo {
+                        a: integer;
+                        a = a + 2;
+                    }

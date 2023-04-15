@@ -1,0 +1,14 @@
+
+            test : function integer(x:integer,y:integer,z:integer) {    
+                if (x + y + z >= 2) {
+                    return x+y+z;
+                }
+                else {
+                    return 0;
+                }
+            }
+            main : function void() {    
+                a: integer = test(1,2,3);
+                printInteger(a);
+            }
+            

@@ -1,0 +1,8 @@
+ main: function void() {
+                        arr: array [3] of integer = {1,2,3};
+                        for (i = 0, i < 3, i+1) {
+                            if (arr[i] == 1) {
+                                arr[i] = 0;
+                            } else arr[i] = 1;
+                        }
+                    }

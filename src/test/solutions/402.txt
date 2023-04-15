@@ -1,0 +1,5 @@
+Program([
+	VarDecl(rand, AutoType)
+	VarDecl(arr, ArrayType([5], IntegerType))
+	VarDecl(arr2, ArrayType([2, 2, 2], BooleanType))
+])

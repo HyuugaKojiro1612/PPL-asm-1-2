@@ -1,0 +1,9 @@
+
+                main: function void(inherit out a : integer, b : float) inherit a{
+                    a = 1;
+                    a = "123";
+                    a = 1.23;
+                    a = {1,2,3,4};
+                    a = true;
+                }
+            

@@ -1,0 +1,4 @@
+Program([
+	VarDecl(a, IntegerType)
+	FuncDecl(main, IntegerType, [Param(a, IntegerType), InheritOutParam(c, StringType), OutParam(d, FloatType)], newcase, BlockStmt([ForStmt(AssignStmt(Id(i), IntegerLit(0)), BooleanLit(True), BinExpr(+, Id(i), IntegerLit(2)), BlockStmt([IfStmt(BinExpr(==, Id(i), IntegerLit(100)), BreakStmt())])), ContinueStmt()]))
+])

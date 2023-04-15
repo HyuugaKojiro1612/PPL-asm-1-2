@@ -1,0 +1,3 @@
+Program([
+	FuncDecl(main, VoidType, [], None, BlockStmt([VarDecl(int, IntegerType), DoWhileStmt(BooleanLit(False), BlockStmt([DoWhileStmt(BooleanLit(False), BlockStmt([]))])), CallStmt(readBoolean, StringLit(true)), CallStmt(printBoolean, BooleanLit(False)), CallStmt(readString, ), CallStmt(printString, StringLit(abc), StringLit(def)), CallStmt(super, BinExpr(+, Id(a), Id(b)), BinExpr(+, Id(c), BooleanLit(True)), BinExpr(+, Id(f), StringLit(antlr))), CallStmt(preventDefault, )]))
+])

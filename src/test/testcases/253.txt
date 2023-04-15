@@ -1,0 +1,3 @@
+ main: function void () {
+                __a__ : integer = arr[2,3,4];
+            } 

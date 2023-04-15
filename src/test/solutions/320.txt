@@ -1,0 +1,5 @@
+Program([
+	VarDecl(member, StringType, BinExpr(::, Id(a), Id(b)))
+	VarDecl(employee, StringType, BinExpr(::, Id(c), Id(d)))
+	FuncDecl(main, VoidType, [], None, BlockStmt([AssignStmt(Id(gat), BinExpr(>, Id(a), Id(b))), AssignStmt(Id(gae), BinExpr(>=, Id(a), Id(b))), AssignStmt(Id(left), BinExpr(<, Id(a), Id(b))), AssignStmt(Id(equal), BinExpr(==, Id(a), Id(b))), AssignStmt(Id(nequal), BinExpr(!=, Id(a), Id(b))), AssignStmt(Id(leftequal), BinExpr(<=, Id(a), Id(b)))]))
+])

@@ -1,0 +1,8 @@
+
+        a, b, c: integer;
+        pi, e_math: float = 3.14, 0.2718e1;
+        d: string;
+        __init: boolean;
+        __def: array[5, 1_45_2] of string;
+        main: function integer(a: integer, inherit out c: string) inherit person {a: integer;}
+        

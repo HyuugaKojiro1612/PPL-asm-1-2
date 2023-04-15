@@ -1,0 +1,7 @@
+
+            main: function void () {
+                if ( i == 1 ){
+                    if (check == 2) printString("nested if");
+                }
+            }
+        

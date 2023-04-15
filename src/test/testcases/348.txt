@@ -1,0 +1,12 @@
+
+        main: function void() inherit classdiagram{
+            if (true && is_check) {
+                a = b;
+                e = a :: "stmt";
+                if (m == n) return 0;
+                return FaLsE;
+            } else 
+                break;
+            return;
+        }
+        

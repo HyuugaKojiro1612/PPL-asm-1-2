@@ -1,0 +1,11 @@
+
+        a, b, c: integer = 1_23_45, 987, 650; 
+        main: function integer(m: array[1] of integer) {
+            return;
+        }
+        foo: function void() {
+            parser(2, 4);
+            __init__(c % d, false && true);
+            readInteger();
+        }
+        

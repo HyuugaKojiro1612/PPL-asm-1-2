@@ -1,0 +1,11 @@
+
+        main: function integer(a: integer, out c: string) inherit newcase {
+            /*foo: function string() { 
+                for (i = implement(i), str(i), i == 2) 
+                    a = a + 1;
+            }*/
+            // array, void: string = 012, 2b;
+            return 0;
+        }
+        
+        

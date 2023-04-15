@@ -1,0 +1,4 @@
+
+            x : array [2,2] of float ;
+                    y : auto = "Hello World!";
+            

@@ -1,0 +1,3 @@
+Program([
+	FuncDecl(main, VoidType, [], classdiagram, BlockStmt([IfStmt(BinExpr(&&, BooleanLit(True), Id(is_check)), BlockStmt([AssignStmt(Id(a), Id(b)), AssignStmt(Id(e), BinExpr(::, Id(a), StringLit(stmt))), IfStmt(BinExpr(==, Id(m), Id(n)), ReturnStmt(IntegerLit(0))), ReturnStmt(Id(FaLsE))]), BreakStmt()), ReturnStmt()]))
+])

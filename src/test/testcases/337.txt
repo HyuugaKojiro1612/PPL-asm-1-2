@@ -1,0 +1,12 @@
+
+        is_prime: function boolean(NumBer: integer){
+            if (Number == 2) return true;
+            for (i = 2, i < NumBer, i + 1){
+                if (Number % i == 0) return false;
+            }
+        }
+        main: function integer(argv: integer, kwargs: string){
+            is_prime(1_221);
+            return 0;
+        }
+        

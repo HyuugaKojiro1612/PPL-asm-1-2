@@ -1,0 +1,6 @@
+
+            x: integer = 2;
+            main: function void() {
+                if (x == 0) x = f(x, 356);
+            }
+        

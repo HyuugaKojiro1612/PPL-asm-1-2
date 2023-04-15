@@ -1,0 +1,7 @@
+
+        main: function integer(a: integer, inherit out a: array[2,2] of integer){
+            while(is_check == false) {
+                break;
+            }
+        }
+        

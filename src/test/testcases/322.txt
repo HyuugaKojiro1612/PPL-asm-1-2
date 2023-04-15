@@ -1,0 +1,8 @@
+main: function integer(a: integer, out c: string) inherit newcase {
+            a: array[3,3] of integer;
+            a[0,0] = true && false;
+            a[0, 1] = false && false;
+            a[0, 2 ] = true && true;
+            a[ 1, 1] = false && true;
+            return a;
+        }

@@ -1,0 +1,11 @@
+
+            main: function void(inherit out a : integer, b : float) inherit a{
+                    a : integer = 1;
+                    f : integer = 1;
+                    b : integer = 5;
+                    while(a <= b){
+                        f = a;
+                        a = a + 1;
+                    }
+            }
+            

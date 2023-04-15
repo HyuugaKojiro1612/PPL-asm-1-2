@@ -1,0 +1,3 @@
+Program([
+	FuncDecl(main, AutoType, [Param(bool, IntegerType), OutParam(c, StringType)], newcase, BlockStmt([AssignStmt(Id(a), BinExpr(&&, UnExpr(!, Id(bool)), Id(c))), ReturnStmt(UnExpr(!, Id(bool))), ReturnStmt(IntegerLit(1223)), ReturnStmt(BinExpr(&&, Id(a), BinExpr(+, Id(b), Id(c)))), ReturnStmt(BinExpr(+, Id(comma), ArrayLit([IntegerLit(1), IntegerLit(2), IntegerLit(3), ArrayLit([IntegerLit(4), IntegerLit(5)])]))), ReturnStmt(ArrayCell(arr, [IntegerLit(2), IntegerLit(2)]))]))
+])

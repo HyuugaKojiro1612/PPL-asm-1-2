@@ -1,0 +1,9 @@
+
+        a: integer;
+        /*This is a comment*/
+        main: function integer(a: integer, inherit out c: string, out d: float) inherit newcase {
+            for(i = 0, true, i + 2){
+                if(i == 100) break;
+            }
+            continue;
+        }

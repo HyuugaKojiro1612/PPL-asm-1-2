@@ -1,0 +1,4 @@
+Program([
+	VarDecl(is_check, BooleanType, BinExpr(&&, BinExpr(||, BooleanLit(True), BooleanLit(False)), BinExpr(&&, BooleanLit(False), Id(is_check))))
+	FuncDecl(main, VoidType, [], None, BlockStmt([AssignStmt(Id(a), BinExpr(||, BooleanLit(True), BooleanLit(False)))]))
+])

@@ -1,0 +1,6 @@
+
+            x : string ;
+            main : function void() {
+                while(x=="abd") printString("QUa");
+            }
+        

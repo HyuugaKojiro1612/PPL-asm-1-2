@@ -1,0 +1,12 @@
+
+            x: integer = -1;
+            main: function void() {
+                printInt(x);
+                while (x > 0)
+                {
+                    x = x + 1; 
+                    break;
+                }
+                printInt(x);
+            }
+        

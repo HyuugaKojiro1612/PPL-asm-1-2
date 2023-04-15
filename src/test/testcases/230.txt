@@ -1,0 +1,5 @@
+ a, b, c: integer;
+                    d: string;
+                    flag: boolean;
+                    arr: array[5,"abc"];
+                    main: function integer(a: integer, out c: string) inherit newcase {a: integer;}

@@ -1,0 +1,4 @@
+ main: function void (n: string = "abc") {       
+                        while();
+                        return foo("bye");
+                    }

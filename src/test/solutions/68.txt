@@ -1,0 +1,4 @@
+Program([
+	VarDecl(x, ArrayType([2, 2], FloatType))
+	VarDecl(y, AutoType, StringLit(Hello World!))
+])

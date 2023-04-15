@@ -1,0 +1,7 @@
+Program([
+	VarDecl(int, ArrayType([1, 2], IntegerType))
+	VarDecl(fl, ArrayType([12, 221], FloatType))
+	VarDecl(bool, ArrayType([1, 20], BooleanType))
+	VarDecl(str, ArrayType([869, 9], StringType))
+	FuncDecl(main, VoidType, [Param(argv, IntegerType), OutParam(kwarg, StringType)], None, BlockStmt([]))
+])

@@ -1,0 +1,6 @@
+ main: function void (n: string) {       
+                        if (a == 1) b = a == 2;
+                        {
+                            y = foo(2) + 3 * 8;
+                        }
+                    }

@@ -1,0 +1,5 @@
+Program([
+	VarDecl(a, IntegerType, IntegerLit(1))
+	FuncDecl(checkSoNguyenTo, BooleanType, [Param(a, IntegerType)], None, BlockStmt([ForStmt(AssignStmt(Id(i), IntegerLit(2)), BinExpr(<, Id(i), FuncCall(sqrt, [Id(a)])), BinExpr(+, Id(i), IntegerLit(1)), BlockStmt([IfStmt(BinExpr(==, BinExpr(%, Id(a), Id(i)), IntegerLit(0)), ReturnStmt(BooleanLit(False)))])), ReturnStmt(BooleanLit(True))]))
+	FuncDecl(main, VoidType, [InheritOutParam(a, IntegerType), Param(b, FloatType)], a, BlockStmt([VarDecl(a, IntegerType, FuncCall(giaithua, [IntegerLit(5)])), IfStmt(FuncCall(checkSoNguyenTo, [Id(a)]), CallStmt(print, StringLit(Day la so nguyen to!!!)), CallStmt(print, StringLit(Day khong phai la so nguyen to!!!)))]))
+])

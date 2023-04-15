@@ -1,0 +1,22 @@
+
+                a : integer = 1;
+                checkSoNguyenTo: function boolean(a: integer){
+                    for (i = 2, i < sqrt(a), i + 1 ){
+                        if (a % i == 0) return false;
+                    }
+                    return true;
+                }
+                checkList : function array [10,5,4,34,2] of integer(a: array [5] of integer){
+                    a = a + 1;
+                    a = a / 1;
+                    a = a* 1;
+                    a = a -----1;
+                    a = 1111;
+                    a = f();
+                    a  = a :: b;
+                    if (!a){
+                        return 1;
+                    }
+                    
+                }
+            

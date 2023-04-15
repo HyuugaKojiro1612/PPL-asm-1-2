@@ -1,0 +1,7 @@
+
+                main: function void(inherit out a : integer, b : float) inherit a{
+                    for(i = 2, i < 5, i + 1){
+                        
+                    }
+                }
+            

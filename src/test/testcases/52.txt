@@ -1,0 +1,11 @@
+
+            getString: function string(x: string) {
+                return x;
+            }
+            upperCase: function string(y: string) {
+                    return y;
+                }
+            main : function void() {    
+                a:string = getString("QA")::upperCase("cute");
+            }
+            

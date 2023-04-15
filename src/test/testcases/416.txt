@@ -1,0 +1,12 @@
+
+            main: function void() {
+                x,y: integer = 3/2%8, int("3.2");
+                do {
+                    if (x > 1) writeInt(x);
+                    x = x - 1;
+                    continue;
+                    if (x > 5) writeInt(x);
+                }
+                while (x != 0);
+            }
+        

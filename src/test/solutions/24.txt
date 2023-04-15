@@ -1,0 +1,3 @@
+Program([
+	FuncDecl(main, VoidType, [InheritOutParam(a, IntegerType), Param(b, FloatType)], a, BlockStmt([IfStmt(BooleanLit(True), BlockStmt([IfStmt(Id(a), BlockStmt([])), AssignStmt(Id(a), IntegerLit(1)), VarDecl(a, IntegerType), VarDecl(b, IntegerType), VarDecl(c, IntegerType), VarDecl(a, IntegerType, IntegerLit(1)), VarDecl(b, IntegerType, IntegerLit(2)), VarDecl(c, IntegerType, IntegerLit(3))])), IfStmt(BinExpr(==, Id(a), IntegerLit(2)), ReturnStmt(IntegerLit(3)), IfStmt(BinExpr(==, Id(a), IntegerLit(1)), ReturnStmt(IntegerLit(2)), ReturnStmt(IntegerLit(0))))]))
+])

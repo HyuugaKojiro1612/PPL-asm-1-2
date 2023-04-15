@@ -1,0 +1,7 @@
+Program([
+	VarDecl(children, ArrayType([12, 34, 56], FloatType), ArrayLit([FloatLit(1.0), FloatLit(0.0), FloatLit(20.0), FloatLit(1e-10)]))
+	VarDecl(m, ArrayType([2], BooleanType), BooleanLit(True))
+	VarDecl(n, ArrayType([2], BooleanType), BinExpr(&&, BooleanLit(False), StringLit(0)))
+	VarDecl(p, ArrayType([2], BooleanType), BooleanLit(True))
+	VarDecl(q, ArrayType([2], BooleanType), BinExpr(||, BooleanLit(True), Id(abc)))
+])

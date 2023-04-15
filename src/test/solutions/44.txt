@@ -1,0 +1,4 @@
+Program([
+	VarDecl(a, IntegerType, IntegerLit(1))
+	FuncDecl(main, VoidType, [Param(a, ArrayType([5], IntegerType))], None, BlockStmt([IfStmt(Id(a), BlockStmt([]), IfStmt(BinExpr(||, BinExpr(==, Id(a), Id(b)), BinExpr(!=, Id(a), Id(c))), BlockStmt([])))]))
+])

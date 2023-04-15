@@ -1,0 +1,4 @@
+Program([
+	VarDecl(x, StringType)
+	FuncDecl(main, VoidType, [], None, BlockStmt([WhileStmt(BinExpr(==, Id(x), StringLit(abd)), CallStmt(printString, StringLit(QUa)))]))
+])

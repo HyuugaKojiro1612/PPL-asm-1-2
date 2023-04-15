@@ -1,0 +1,12 @@
+
+                main: function void(inherit out a: integer, b: float) inherit ABC{
+                    a: integer = 0;
+                    if (a == 5) {
+                        do{
+                            a = a + 1;
+                        }while(a != 10);
+                        break;
+                    } 
+                    return 0;
+                }
+            

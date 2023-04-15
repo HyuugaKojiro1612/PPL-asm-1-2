@@ -1,0 +1,5 @@
+
+        current: boolean = false && true && true || false;
+        a,b,c,d: float = .e-1, 1.e14, 8.e15, 6.e16;
+        main: function void() {}
+        

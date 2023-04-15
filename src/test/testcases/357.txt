@@ -1,0 +1,5 @@
+
+        m_t_o: function array[5] of integer() {
+            return foo(1_2 + 2 || 4 :: 5);
+        }        
+        

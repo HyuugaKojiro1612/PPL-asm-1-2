@@ -1,0 +1,4 @@
+Program([
+	VarDecl(is_checked, BooleanType, BooleanLit(True))
+	FuncDecl(main, IntegerType, [Param(a, IntegerType), InheritParam(is_save, BooleanType), OutParam(c, StringType), InheritOutParam(d, ArrayType([5], IntegerType))], newcase, BlockStmt([VarDecl(a, IntegerType), IfStmt(BooleanLit(True), BlockStmt([IfStmt(BinExpr(==, Id(c), StringLit()), ReturnStmt(IntegerLit(1)), IfStmt(BinExpr(==, Id(c), StringLit(\t)), BlockStmt([ReturnStmt(IntegerLit(2))]), IfStmt(BinExpr(==, Id(c), StringLit(\n)), BlockStmt([ReturnStmt(IntegerLit(3))]), CallStmt(readInteger, ))))]), CallStmt(printInteger, IntegerLit(0))), ReturnStmt(IntegerLit(4))]))
+])

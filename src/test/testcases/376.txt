@@ -1,0 +1,20 @@
+
+        truer : boolean = true;
+        falser : boolean = false;
+        truer_than_truth : boolean = true || false && true;
+        _hanser_bronya : boolean = x >= y;
+        nestedtruth : auto = (x>=y) != ((y<=x) == (1 < 2));
+        /* Array
+        Test ? Array is still bug bruh*/
+        a : array[2,2] of float;
+        a,b,c : array[1,2] of integer = {a[1,1],a[1,2]}, {2,3}, {4,5};
+        c : array[1,1] of boolean = {};
+
+        mulfu: function integer (e : integer, f: float){
+            return e * f;
+        }
+
+        inc: function auto(out n: integer, inherit delta: integer, inherit out hallo: auto) {
+            return a[1,2] && b;
+        }        
+        

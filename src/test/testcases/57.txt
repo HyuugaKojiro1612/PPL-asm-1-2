@@ -1,0 +1,13 @@
+
+            test : function integer (num:integer)  {
+                if( num == 1){
+                    return 1;
+                }
+                else {
+                    return 0;
+                }
+            }
+            main : function void() {
+                printInteger(test(5));
+            }
+            

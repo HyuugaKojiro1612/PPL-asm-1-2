@@ -1,0 +1,4 @@
+
+        children: array[1_2,3_4,5_6] of float = {1., .e-5, 2.e+1, 1e-10};
+        m,n,p,q: array[2] of boolean = true, (false && "0"), true, (true || abc);
+        

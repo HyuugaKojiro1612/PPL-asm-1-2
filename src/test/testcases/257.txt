@@ -1,0 +1,7 @@
+ main: function void () {
+                        __a__ : integer = arr[2,3,4];
+                    }
+                    main: function void () {
+                        a : array [10] of integer;
+                    }    
+                    a : array [10] of integer = {{}};

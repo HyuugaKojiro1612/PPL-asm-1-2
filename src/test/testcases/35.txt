@@ -1,0 +1,11 @@
+
+                main: function void(inherit out a : integer, b : float) inherit a{
+                    f();
+                    f(a,b,c,d);
+                    f(f(f(f(a))));
+                    return f(a);
+                    f(a[5]);
+                    f(a[1,2,3]);
+                    f(1,2,3,-5,a);
+                }
+            

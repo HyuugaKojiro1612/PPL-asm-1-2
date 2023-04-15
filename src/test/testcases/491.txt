@@ -1,0 +1,6 @@
+
+            main: function void() {
+                while (true) for (i = 0, i < 3, -i) while (true) return;
+                // else if (false) if (false) {} else return;
+            }
+        

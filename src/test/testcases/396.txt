@@ -1,0 +1,8 @@
+
+        x,y: float;
+        main: function void () {
+            x: boolean;
+            x = true;
+            printBoolean(x);
+        }
+        

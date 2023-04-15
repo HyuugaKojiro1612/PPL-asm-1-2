@@ -1,0 +1,7 @@
+
+        a, b, c: integer;
+        d: string;
+        e_2sad_, mu_w2__a: float = 1.23, 6.2e4;
+        __init: boolean;
+        main: function integer() inherit person {}
+        

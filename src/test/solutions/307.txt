@@ -1,0 +1,7 @@
+Program([
+	VarDecl(is_check, BooleanType, BooleanLit(True))
+	VarDecl(is_not_check, BooleanType, BooleanLit(False))
+	VarDecl(is_prime, BooleanType, BinExpr(||, BooleanLit(False), BooleanLit(True)))
+	VarDecl(a, AutoType)
+	VarDecl(b, AutoType)
+])

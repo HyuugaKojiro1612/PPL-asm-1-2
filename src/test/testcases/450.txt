@@ -1,0 +1,4 @@
+ main: function void (n: string) {       
+                        while(x == 1 || 5) y = true;
+                        return foo("bye");
+                    }

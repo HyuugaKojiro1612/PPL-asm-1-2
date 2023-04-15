@@ -1,0 +1,3 @@
+Program([
+	FuncDecl(leaf_to_leave, IntegerType, [OutParam(c, BooleanType)], None, BlockStmt([ReturnStmt(UnExpr(!, UnExpr(!, UnExpr(!, UnExpr(!, UnExpr(!, IntegerLit(12)))))))]))
+])

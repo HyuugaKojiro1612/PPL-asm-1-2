@@ -1,0 +1,6 @@
+
+        x,y: float = 2.0 , 3.9;
+        main: function void () {
+            x,y: boolean = true,false;
+            printBoolean(x&&y);
+        }

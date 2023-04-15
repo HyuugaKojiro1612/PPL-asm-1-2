@@ -1,0 +1,5 @@
+ 
+        inc: function void(out n: integer) {
+            n  = n+ 1;
+            return n;
+        }

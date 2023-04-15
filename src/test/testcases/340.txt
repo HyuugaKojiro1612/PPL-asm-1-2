@@ -1,0 +1,10 @@
+
+        main: function integer(argv: integer, kwargs: string){
+            while (main == true) {
+                divide = 1 && true + 2/3;
+                subtract: float = 1.e-1;
+            }
+            print(is_divide(1_22_1));
+            return 0;
+        }
+        

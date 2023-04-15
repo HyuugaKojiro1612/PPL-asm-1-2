@@ -1,0 +1,10 @@
+
+                sum: function integer(a : integer, b: integer){
+                    return a + b;
+                }
+                main: function void(inherit out a : integer, b : float) inherit a{
+                    a: integer = 1;
+                    b : integer = 2;
+                    print(a + b);
+                }
+            

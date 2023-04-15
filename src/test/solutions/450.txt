@@ -1,0 +1,3 @@
+Program([
+	FuncDecl(main, VoidType, [Param(n, StringType)], None, BlockStmt([WhileStmt(BinExpr(==, Id(x), BinExpr(||, IntegerLit(1), IntegerLit(5))), AssignStmt(Id(y), BooleanLit(True))), ReturnStmt(FuncCall(foo, [StringLit(bye)]))]))
+])

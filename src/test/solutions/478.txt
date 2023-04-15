@@ -1,0 +1,3 @@
+Program([
+	FuncDecl(main, VoidType, [], None, BlockStmt([IfStmt(BinExpr(==, Id(i), IntegerLit(1)), BlockStmt([IfStmt(BinExpr(==, Id(check), IntegerLit(2)), CallStmt(printString, StringLit(nested if)))]))]))
+])

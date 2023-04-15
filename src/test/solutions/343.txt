@@ -1,0 +1,3 @@
+Program([
+	FuncDecl(main, VoidType, [], None, BlockStmt([DoWhileStmt(BinExpr(!=, Id(n), IntegerLit(0)), BlockStmt([VarDecl(n, IntegerType), CallStmt(print, StringLit(Enter n: )), AssignStmt(Id(n), FuncCall(readInt, [])), CallStmt(printFloat, FuncCall(caclPi, [Id(n)])), CallStmt(print, StringLit(Pi = )), CallStmt(print, StringLit(\n))]))]))
+])

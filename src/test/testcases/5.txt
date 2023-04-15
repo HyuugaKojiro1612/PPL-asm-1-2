@@ -1,0 +1,6 @@
+
+        arr : array [5] of float;
+        arr : array [5] of integer;
+        arr : array [5] of string;
+        arr : array [5] of boolean;
+        

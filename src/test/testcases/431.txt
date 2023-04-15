@@ -1,0 +1,10 @@
+
+            main : function void() {    
+                f = a < !b;
+                if (f == true || false) {
+                    while (x == 1) {
+                        test(sth);
+                    }
+                }
+            }
+        

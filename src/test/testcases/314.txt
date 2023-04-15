@@ -1,0 +1,3 @@
+
+        multi: function boolean(inherit c: float, out dimen_to_string: integer) {}
+        

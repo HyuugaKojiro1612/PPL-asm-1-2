@@ -1,0 +1,8 @@
+
+        dung: boolean = true; 
+        str1, str2: string = "str1", "str2";
+        main: function void() {
+            x,y,z: integer = 1,2,3; 
+            a,b,c: float = 1.2, .e23, 34.;  
+        }
+        

@@ -1,0 +1,12 @@
+
+        main: function void() {
+            int: integer;
+            do{do{}while(false);}while(false);
+            readBoolean("true");
+            printBoolean(false);
+            readString();
+            printString("abc", "def");
+            super(a + b, c + true, f + "antlr");
+            preventDefault();
+        }        
+        

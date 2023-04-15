@@ -1,0 +1,6 @@
+Program([
+	VarDecl(arr, ArrayType([5, 1, 2, 4], IntegerType), ArrayLit([IntegerLit(1), IntegerLit(2), IntegerLit(3)]))
+	VarDecl(arr, ArrayType([554], IntegerType), ArrayLit([ArrayLit([IntegerLit(1), IntegerLit(2), IntegerLit(3)]), ArrayLit([IntegerLit(1), IntegerLit(2), IntegerLit(3)])]))
+	VarDecl(arr, ArrayType([2, 3, 5], StringType), ArrayLit([]))
+	VarDecl(arr, ArrayType([5, 5], BooleanType), ArrayLit([StringLit(123)]))
+])

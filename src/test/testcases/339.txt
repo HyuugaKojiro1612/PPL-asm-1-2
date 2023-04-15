@@ -1,0 +1,9 @@
+main: function integer(argv: integer, kwargs: string){
+            is_check = true;
+            for (i = 0, is_check && true, i + 2){
+                if (i % 2 == 0) print(i, "\n");
+                else if (i == 99) is_check = false;
+                else continue;
+            }
+            return 0;
+        }

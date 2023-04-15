@@ -1,0 +1,4 @@
+ a: array[10] of integer;
+                    main: function void() {
+                        a = {foo(1, str, foo2())};
+                    }

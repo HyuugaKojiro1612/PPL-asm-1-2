@@ -1,0 +1,11 @@
+Program([
+	VarDecl(a, IntegerType)
+	VarDecl(b, IntegerType)
+	VarDecl(c, IntegerType)
+	VarDecl(pi, FloatType, FloatLit(3.14))
+	VarDecl(e_math, FloatType, FloatLit(2.718))
+	VarDecl(d, StringType)
+	VarDecl(__init, BooleanType)
+	VarDecl(__def, ArrayType([5, 1452], StringType))
+	FuncDecl(main, IntegerType, [Param(a, IntegerType), InheritOutParam(c, StringType)], person, BlockStmt([VarDecl(a, IntegerType)]))
+])

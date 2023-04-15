@@ -1,0 +1,6 @@
+
+                main: function void(inherit out a : integer, b : float) inherit a{
+                    f(5-4, a>b, a*b, {1,23,4,5,{}});
+                    f(a>=b, a<=b, a == b, a != c);
+                }
+            

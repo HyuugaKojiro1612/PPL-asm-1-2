@@ -1,0 +1,6 @@
+main: function integer(a: integer, out c: string) inherit newcase {
+            a: integer;
+            printInteger(a(m[1]));
+        }
+        
+        

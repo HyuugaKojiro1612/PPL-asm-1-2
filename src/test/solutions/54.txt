@@ -1,0 +1,4 @@
+Program([
+	FuncDecl(main, VoidType, [Param(args, StringType)], None, BlockStmt([]))
+	FuncDecl(foo, BooleanType, [Param(a, StringType), Param(b, StringType)], None, BlockStmt([ReturnStmt(BinExpr(==, Id(a), Id(b)))]))
+])

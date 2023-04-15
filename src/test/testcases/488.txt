@@ -1,0 +1,9 @@
+
+            main: function void() {
+                x: integer = 1 ;
+                if (i + x % 3 == 0) writeInt(i); 
+                else
+                for (i = 15, i < 100, i + 5) {
+                }
+            }
+        

@@ -1,0 +1,7 @@
+
+        main: function void(a: integer, out c: string) inherit newcase {
+            break;
+            continue;
+            break; break;
+        }
+        

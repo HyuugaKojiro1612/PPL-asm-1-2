@@ -1,0 +1,8 @@
+
+            main: function void () {
+                if (i == 1) {
+                    x = (x + 1) * (x - 1);
+                }
+                printInteger(i);
+            }  
+        

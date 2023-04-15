@@ -1,0 +1,4 @@
+main: function integer(a: integer, out c: string) inherit newcase {a: integer;
+            if( a== 1) return menu[0];
+            else return double(double(menu[1]));
+        }

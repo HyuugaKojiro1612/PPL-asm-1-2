@@ -1,0 +1,5 @@
+Program([
+	VarDecl(a, ArrayType([1, 2, 3, 4, 5], IntegerType), ArrayLit([IntegerLit(1), IntegerLit(2), IntegerLit(3), IntegerLit(4), IntegerLit(5)]))
+	VarDecl(v, ArrayType([1, 2, 3, 4, 5], IntegerType), ArrayLit([IntegerLit(1), IntegerLit(2), IntegerLit(3), IntegerLit(4), IntegerLit(5)]))
+	FuncDecl(main, IntegerType, [Param(a, IntegerType), OutParam(c, StringType)], newcase, BlockStmt([VarDecl(a, IntegerType), ReturnStmt(FuncCall(a, [FuncCall(v, [IntegerLit(0)])]))]))
+])

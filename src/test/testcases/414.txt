@@ -1,0 +1,10 @@
+
+            main: function void (){
+                n: integer = 10;
+                do {
+                    print("Some " :: "string");
+                    i = i + 1;
+                    if ( i == 50 ) continue;
+                } while (i < 100);
+           }
+        

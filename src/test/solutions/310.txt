@@ -1,0 +1,10 @@
+Program([
+	VarDecl(a, IntegerType)
+	VarDecl(b, IntegerType)
+	VarDecl(c, IntegerType)
+	VarDecl(d, StringType)
+	VarDecl(e_2sad_, FloatType, FloatLit(1.23))
+	VarDecl(mu_w2__a, FloatType, FloatLit(62000.0))
+	VarDecl(__init, BooleanType)
+	FuncDecl(main, IntegerType, [], person, BlockStmt([]))
+])

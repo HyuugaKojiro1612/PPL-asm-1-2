@@ -1,0 +1,3 @@
+Program([
+	FuncDecl(main, IntegerType, [Param(a, IntegerType), InheritOutParam(a, ArrayType([2, 2], IntegerType))], None, BlockStmt([WhileStmt(BinExpr(==, Id(is_check), BooleanLit(False)), BlockStmt([BreakStmt()]))]))
+])

@@ -1,0 +1,6 @@
+
+            main: function void() {
+                if (true) if (true) if (true) return;
+                else if (false) if (false) {} else return;
+            }
+        

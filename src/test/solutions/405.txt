@@ -1,0 +1,6 @@
+Program([
+	VarDecl(dung, BooleanType, BooleanLit(True))
+	VarDecl(str1, StringType, StringLit(str1))
+	VarDecl(str2, StringType, StringLit(str2))
+	FuncDecl(main, VoidType, [], None, BlockStmt([VarDecl(x, IntegerType, IntegerLit(1)), VarDecl(y, IntegerType, IntegerLit(2)), VarDecl(z, IntegerType, IntegerLit(3)), VarDecl(a, FloatType, FloatLit(1.2)), VarDecl(b, FloatType, FloatLit(0.0)), VarDecl(c, FloatType, FloatLit(34.0))]))
+])

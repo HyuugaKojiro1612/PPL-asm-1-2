@@ -1,0 +1,7 @@
+Program([
+	VarDecl(x, IntegerType, IntegerLit(2))
+	VarDecl(y, IntegerType, IntegerLit(100000))
+	FuncDecl(main, VoidType, [], None, BlockStmt([WhileStmt(BinExpr(==, BinExpr(+, Id(x), Id(y)), IntegerLit(100002)), AssignStmt(Id(y), IntegerLit(8))), CallStmt(printInt, Id(y))]))
+	VarDecl(b, IntegerType, IntegerLit(22))
+	VarDecl(a, IntegerType, IntegerLit(45))
+])

@@ -1,0 +1,3 @@
+Program([
+	FuncDecl(is_divide, ArrayType([99], IntegerType), [Param(n, IntegerType)], None, BlockStmt([VarDecl(result, ArrayType([100], IntegerType)), VarDecl(index, IntegerType, IntegerLit(0)), ForStmt(AssignStmt(Id(i), IntegerLit(1)), BinExpr(<, Id(i), Id(n)), BinExpr(+, Id(i), IntegerLit(1)), BlockStmt([IfStmt(BinExpr(==, BinExpr(%, Id(n), Id(i)), IntegerLit(0)), BlockStmt([AssignStmt(ArrayCell(result, [Id(index)]), Id(i)), AssignStmt(Id(index), BinExpr(+, Id(index), IntegerLit(1)))]))])), ReturnStmt(Id(result))]))
+])

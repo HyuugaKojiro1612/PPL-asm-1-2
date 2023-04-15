@@ -1,0 +1,11 @@
+ main: function void() {
+                        num: integer = 1;
+                        for (i = 0, i < n, i + 1) {
+                            if (ctr == 0) continue;
+                            else {
+                                while (a <= b * c[2]) {
+                                    a : auto = s :: x;
+                                }
+                            }
+                        }
+                    }

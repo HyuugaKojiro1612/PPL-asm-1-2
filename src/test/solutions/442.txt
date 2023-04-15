@@ -1,0 +1,3 @@
+Program([
+	FuncDecl(main, VoidType, [], None, BlockStmt([VarDecl(num, IntegerType, IntegerLit(1)), ForStmt(AssignStmt(Id(i), IntegerLit(0)), BinExpr(<, Id(i), Id(n)), BinExpr(+, Id(i), IntegerLit(1)), BlockStmt([IfStmt(BinExpr(==, Id(ctr), IntegerLit(0)), CallStmt(foo, BinExpr(==, Id(a), IntegerLit(2))), WhileStmt(BinExpr(<=, Id(a), BinExpr(*, Id(b), ArrayCell(c, [IntegerLit(2)]))), BlockStmt([])))]))]))
+])

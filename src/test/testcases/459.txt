@@ -1,0 +1,8 @@
+
+                main: function void(inherit out a: integer, b: float) inherit ABC{
+                    a: integer = 1;
+                    while (true){
+                    }
+                    if ((a == 2) || (a == 3)) return 0;
+                }
+            

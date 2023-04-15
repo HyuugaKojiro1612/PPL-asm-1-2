@@ -1,0 +1,5 @@
+
+        x,y: float = 2.0 , 3.9;
+        main: function void () {
+            printBoolean(x||y||x);
+        }

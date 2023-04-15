@@ -1,0 +1,6 @@
+
+        main: function void() {
+            m = func(mul+1-2, is_check(a&&b));
+            a[1,2] = func(main(1_2_3));
+        }
+        

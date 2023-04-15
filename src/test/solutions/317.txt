@@ -1,0 +1,5 @@
+Program([
+	VarDecl(newcastle, AutoType, ArrayLit([IntegerLit(1), IntegerLit(2), StringLit(abc), Id(m), ArrayLit([IntegerLit(9), IntegerLit(20)])]))
+	VarDecl(func, AutoType, Id(custom))
+	VarDecl(foo, StringType, BinExpr(::, StringLit(abc), BinExpr(+, BinExpr(-, BinExpr(+, Id(mn), IntegerLit(1)), BinExpr(/, BinExpr(*, UnExpr(-, IntegerLit(2)), IntegerLit(6)), IntegerLit(4))), BinExpr(%, IntegerLit(12), IntegerLit(3)))))
+])

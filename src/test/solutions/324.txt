@@ -1,0 +1,3 @@
+Program([
+	FuncDecl(main, IntegerType, [OutParam(c, ArrayType([1, 23], IntegerType))], fff, BlockStmt([VarDecl(cycle, IntegerType, FuncCall(mul012_23, [BinExpr(-, IntegerLit(22), FuncCall(foo, [BinExpr(+, Id(a), FuncCall(foo, [Id(a)]))]))]))]))
+])

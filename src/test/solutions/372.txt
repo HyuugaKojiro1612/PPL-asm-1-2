@@ -1,0 +1,3 @@
+Program([
+	FuncDecl(main, IntegerType, [Param(a, IntegerType), OutParam(c, StringType)], newcase, BlockStmt([CallStmt(passFulltest, ), ReturnStmt(IntegerLit(10000))]))
+])

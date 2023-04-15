@@ -1,0 +1,9 @@
+
+        fact: function integer (n: integer) {
+            if ((n == 0) || (n == 1)) return a;
+            else return n * fact(n - 1) * fact(n-2);
+        }
+        main: function integer(a: integer, out c: string) inherit newcase {
+            x: integer = 65;
+            return fact(x);
+        }

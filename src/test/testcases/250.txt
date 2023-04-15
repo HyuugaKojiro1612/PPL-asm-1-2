@@ -1,0 +1,5 @@
+ func: function integer() {
+                    for (i = 1, i < 10, i :: -2 :: 3E-10) {
+                        a = ---a;
+                    }
+                } 

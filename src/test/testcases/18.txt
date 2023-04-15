@@ -1,0 +1,11 @@
+
+                main: function void(inherit out a : integer, b : float) inherit a{
+                    x,y,z: integer;
+                    a,b: float;
+                    {
+                        c: string;  
+                    }
+                    d: boolean;
+                    a : auto;
+                }
+            

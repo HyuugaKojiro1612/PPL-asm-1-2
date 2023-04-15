@@ -1,0 +1,5 @@
+
+        fe2o3 : function integer() inherit augment {
+            while (arr[foo()]::arr[1_2,3_4]) {}
+        }
+        

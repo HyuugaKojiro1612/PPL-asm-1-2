@@ -1,0 +1,4 @@
+ main: function void (out n: integer) {       
+                        while(true)
+                        { return foo(2 :: n + 1 % 3); }
+                    }

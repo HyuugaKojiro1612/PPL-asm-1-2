@@ -1,0 +1,8 @@
+main: function integer(a: integer, out c: string) inherit newcase {
+            i,j : integer = 0, 1;
+            do {
+                print("Hello world");
+            }
+            while("23r"::"23432aa");
+        }
+        

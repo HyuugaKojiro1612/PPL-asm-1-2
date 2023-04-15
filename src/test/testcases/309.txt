@@ -1,0 +1,6 @@
+
+        c, d, e, f: float = 1.e23, 4.e-1, .e2, .1e+2;
+        m: function integer() {
+            a: array[10] of integer;
+            a = {1,2,3,{3,4,5}};
+        }

@@ -1,0 +1,12 @@
+
+        main: function void() {
+            do {
+                continue;
+                }
+            while (func != 1_2 + 2.3e-1);
+            readInteger();
+            printInteger(1_2_3 - an);
+            readFloat();
+            writeFloat(1.e-2, 4.e-5);
+        }       
+        

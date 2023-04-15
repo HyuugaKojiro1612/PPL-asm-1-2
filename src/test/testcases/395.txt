@@ -1,0 +1,9 @@
+
+        x,y: integer = 2 , 100000;
+        main: function void () {
+            while (x + y == 100002) {
+                if (x > 1) x = x + y + 1 - -2;
+            }
+            printInt(x);
+        }
+        

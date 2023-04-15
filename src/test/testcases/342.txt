@@ -1,0 +1,10 @@
+
+        main: function void() {
+            while (foo(true || false + f0123(12_1) != 12 + 34 + 56 && A))
+            {
+                continue;
+                a = b / c * (d + e);
+                break;
+            }
+        }        
+        

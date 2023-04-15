@@ -1,0 +1,28 @@
+
+            // Solo Comment, INT
+            a, b ,c : integer = 1, 2, 3 ;
+            /* multipline comment
+            69 = 420 ? 69 : 420;
+            */
+            b : integer = 1_2; // coment commeeenasdk
+            c : integer = 1_2_3;
+            d: integer = a[1,2] + 69/69;
+            //FLOAT
+            _65 : float = 1.23; //_65 is an ID
+            y : float = 1.2e3;
+            z : auto = 7E-10;
+            a : float = 1_5_6.9e123;
+            b : float = 1.E-12;
+            c : float = .9e3;
+            d : auto = .e32;
+            e : float = y + 69. - 69.0 * 0.0 / b % 3;
+            
+
+            /* STRING*/
+            str2 : string = "Multiple line string";
+            str3 : string = str1 :: str2;
+            x : string = "abc";
+            y : string = "ab // cd";
+            z : string = " ab /* cd */";
+            c : string = " ab unclose";
+        

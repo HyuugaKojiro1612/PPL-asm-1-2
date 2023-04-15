@@ -1,0 +1,8 @@
+
+        a : integer = a;
+        a : integer = c[f];
+        a : integer = d[f[c[f]]];
+        a: integer = func(func(func));
+        arr : array [5] of integer = {{a,b[5],3 + 1}, {1,2,3}};
+        arr : array [5] of integer = {a,f(), f(a+c)};
+            

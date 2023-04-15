@@ -1,0 +1,5 @@
+
+            main: function void(inherit out a : integer, b : float) inherit a{
+                    if(true) a = 1; 
+                }
+            

@@ -1,0 +1,9 @@
+
+        sigma: boolean = ((abc && true) || false);
+        a: float = 23.e2;
+        b: string = "asdc_asjd_1";
+        c, d: integer = 1_2_3_222_2, f;
+        main: function integer(a: integer, out c: string) inherit newcase {a: integer;
+            mul = a && b && c;
+            return ;
+        }

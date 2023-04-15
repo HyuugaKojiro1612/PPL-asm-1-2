@@ -1,0 +1,11 @@
+
+        member, employee: string = a :: b, c::d;
+        main: function void(){
+            gat = a > b;
+            gae = a >= b;
+            left = a < b;
+            equal = a == b;
+            nequal = a != b;
+            leftequal = a <= b;
+        }
+        

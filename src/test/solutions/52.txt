@@ -1,0 +1,5 @@
+Program([
+	FuncDecl(getString, StringType, [Param(x, StringType)], None, BlockStmt([ReturnStmt(Id(x))]))
+	FuncDecl(upperCase, StringType, [Param(y, StringType)], None, BlockStmt([ReturnStmt(Id(y))]))
+	FuncDecl(main, VoidType, [], None, BlockStmt([VarDecl(a, StringType, BinExpr(::, FuncCall(getString, [StringLit(QA)]), FuncCall(upperCase, [StringLit(cute)])))]))
+])

@@ -1,0 +1,4 @@
+main: function integer(out c: array[1,2_3] of integer) inherit fff {
+            cycle: integer = mul012_23(22-foo(a + foo(a)));
+        }
+        

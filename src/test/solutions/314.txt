@@ -1,0 +1,3 @@
+Program([
+	FuncDecl(multi, BooleanType, [InheritParam(c, FloatType), OutParam(dimen_to_string, IntegerType)], None, BlockStmt([]))
+])

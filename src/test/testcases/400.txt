@@ -1,0 +1,19 @@
+
+        x: integer = 9;
+        main: function void () {
+            printInt(x);
+            {
+                {
+                    {
+                        {
+                            printInt(x);
+                            x: integer = 100;
+                            printInt(x);
+                        }
+                        printInt(x);
+                    }
+                }
+            }
+            return;
+        }
+        

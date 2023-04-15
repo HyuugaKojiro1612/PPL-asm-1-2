@@ -1,0 +1,6 @@
+Program([
+	VarDecl(songuyen, IntegerType)
+	VarDecl(sothuc, FloatType)
+	VarDecl(dung, BooleanType)
+	VarDecl(chuoi, StringType)
+])

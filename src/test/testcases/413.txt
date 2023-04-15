@@ -1,0 +1,13 @@
+
+            sumCalc: function void (n: integer){
+                sum: integer = 0;
+                for (i = 0, i <= n, i + 1){
+                        sum = sum + i;
+                    }
+                    printInteger(sum);
+                }
+            main: function void () {
+                test1: integer = 123;
+                return sumCalc(test1) * 3;
+            }
+        

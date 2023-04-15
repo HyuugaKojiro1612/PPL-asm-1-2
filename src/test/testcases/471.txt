@@ -1,0 +1,5 @@
+ func: function integer() {
+                        for (i = 1, i < 10, i :: foo(8 )) {
+                            return a >= ---a;
+                        }
+                    } 
